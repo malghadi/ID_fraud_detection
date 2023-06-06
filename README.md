@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 git clone https://github.com/malghadi/ID_fraud_detection.git
 
-# install pytorch, torchvision refer to https://pytorch.org/get-started/locally/
+--# install pytorch, torchvision refer to https://pytorch.org/get-started/locally/
 pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 -f https://download.pytorch.org/whl/torch_stable.html
 
 
