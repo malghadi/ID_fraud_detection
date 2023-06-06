@@ -9,11 +9,15 @@ resentations based on an adversarial setting, which is named as
 constrained-adversary based fraud detection model (AdvFD).
 Both models work to well classify authentic (real) and forged
 (fake) identity documents.
-![alt text](https://github.com/malghadi/ID_fraud_detection/blob/ContFD.png)
 
 ## Contents  <br />
 1- Contrastive based fraud detection model (ContFD). <br />
-This model employs an encoder-decoder-classifier sub-networks which enable the model to map the input image into a lower-dimension feature vector, and then to reconstruct the output image. The objective of classifier is to well classify the input image into a real or fake image. <br />
+This model employs an encoder-decoder-classifier sub-networks which enable the model to map the input image into a lower-dimension feature vector, and then to reconstruct the output image. The objective of classifier is to well classify the input image into a real or fake image. <img
+  src="blob/ContFD.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  <br />
 2- Constrained-adversary based fraud detection model (AdvFD).<br /> 
 This model is similar to the ContFD model, the ony difference is that the classifier network f(.) is replaced by a onstrained-adversarial model A(.).
 
